@@ -8,9 +8,9 @@ public class reverseNumber {
         int num  = sc.nextInt();
         while(num>0){
             int rem = num%10;
-             
+             num = num/10;
             System.out.print(rem+ " ");
-           num = num/10;
+           
         }
         System.out.println();
     }
